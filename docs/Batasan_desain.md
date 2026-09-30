@@ -28,3 +28,4 @@ Data profiling sendiri menunjukkan bahwa `customers.csv` berisi 800 pelanggan da
 ## Catatan
 
 Pertanyaan ini sengaja dipilih karena berhubungan langsung dengan artefak yang dipotong di D7. Kelompok memutuskan untuk tidak membangun `dim_customer` karena target build hanya 1 fact + 1 conformed dimension.
+
