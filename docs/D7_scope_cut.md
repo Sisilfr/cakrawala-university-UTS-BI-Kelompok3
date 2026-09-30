@@ -1,7 +1,7 @@
 > Diisi tim **sebelum** menghadap dosen. Dosen hanya mencoret dan tanda tangan.
 > Form ini yang jadi acuan rubrik di Sesi 15–16: yang kamu potong tidak dihitung sebagai kekurangan
 
-Tim: Kelompok 3 | Topik / slice: K3T2 POS UMKM — Outlet A+B+C, 12 bulan (slice k8) | Tanggal: 30 Sept 2026
+Tim: Kelompok 3 | Topik / slice: K3T2 POS UMKM — Outlet A+B+C, 12 bulan (slice k8) | Tanggal Deadline : 2 Okt 2026
 
 ## AKAN DIBANGUN (maksimal 1 fact table + 1 conformed dimension per RPS butir 8)
 
