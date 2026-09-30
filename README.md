@@ -75,11 +75,11 @@ Sistem Data Warehouse dirancang menggunakan arsitektur **Star Schema** yang difo
 
 ---
 
-## 🎯 Batas Lingkup Capstone (Scope Cut - D7)
+## Batas Lingkup Capstone (Scope Cut - D7)
 
 Berdasarkan formulir persetujuan batas lingkup ([docs/D7_scope_cut.md](file:///D:/UTS_BI_Kel3/docs/D7_scope_cut.md)):
 
-### ✅ AKAN DIBANGUN
+### AKAN DIBANGUN
 1. **Fact Table**: `fact_transaksi_item` (dedup 219 transaksi duplikat).
 2. **4 Tabel Dimensi**: `dim_date`, `dim_product` (SCD 2), `dim_outlet` (SCD 1), `dim_status_transaksi` (SCD 0).
 3. **3 Query Analitik**: Ukuran keranjang (`q01`), Pertumbuhan MoM (`q02`), Rasio Retur (`q03`).
@@ -87,7 +87,7 @@ Berdasarkan formulir persetujuan batas lingkup ([docs/D7_scope_cut.md](file:///D
 5. **Data Quality Tests**: 6 test kualitas data dengan severity & expected result.
 6. **Pipeline Load Idempoten**: `sql/load.sql` dengan strategi `CREATE OR REPLACE TABLE`.
 
-### 🚫 TIDAK LAGI DIBANGUN (Scope Cut)
+### TIDAK LAGI DIBANGUN (Scope Cut)
 1. **`dim_customer`**: 25% transaksi anonim di POS & grain fact adalah level item.
 2. **Analisis Pelanggan Berulang (RFM / Retention)**: Kunci pelanggan tidak dibawa ke fact item.
 3. **Tabel `dim_kategori` Terpisah**: Kategori didenormalisasi langsung pada `dim_product`.
@@ -95,7 +95,7 @@ Berdasarkan formulir persetujuan batas lingkup ([docs/D7_scope_cut.md](file:///D
 
 ---
 
-## 🧪 Kualitas Data & Guard Tests (D4)
+## Kualitas Data & Guard Tests (D4)
 
 Pengujian kualitas data diatur dalam [tests/test_definitions.yml](file:///D:/UTS_BI_Kel3/tests/test_definitions.yml):
 
@@ -110,7 +110,7 @@ Pengujian kualitas data diatur dalam [tests/test_definitions.yml](file:///D:/UTS
 
 ---
 
-## 📂 Struktur Direktori Repository
+## Struktur Direktori Repository
 
 ```
 ├── data/raw/t2_umkm/       # Seed CSV dataset T2 POS UMKM (customers, outlets, products, transactions, items)
@@ -132,7 +132,7 @@ Pengujian kualitas data diatur dalam [tests/test_definitions.yml](file:///D:/UTS
 
 ---
 
-## ⚡ Cara Menjalankan & Verifikasi Project
+## Cara Menjalankan & Verifikasi Project
 
 ### 1. Eksekusi Load Warehouse (Idempoten)
 Jalankan proses load warehouse 2 kali (`--twice`) untuk membuktikan idempotensi skrip:
