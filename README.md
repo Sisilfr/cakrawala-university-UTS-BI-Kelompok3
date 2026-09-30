@@ -9,7 +9,6 @@
 ## 👥 Informasi Tim & Deliverable UTS
 
 * **Kelompok**: Kelompok 3
-* **Ketua Tim**: Sisilia Fransisca
 * **Topik Target**: T2 POS UMKM (`data/raw/t2_umkm/`)
 * **Slice Datasets**: `k8` (Outlet A, B, C — 12 Bulan Kalender)
 * **Status DoD Checkpoint**: **100% PASS** (Sesi 4, Sesi 5, & Sesi 8 Design Checkpoint)
