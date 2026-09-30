@@ -1,6 +1,6 @@
 # Data Warehouse POS UMKM Multi-Outlet — Kelompok 3
 
-> **Business Intelligence Systems (SDA2161)** — Universiti / Universitas Cakrawala  
+> **Business Intelligence Systems (SDA2161)** — Universitas Cakrawala  
 > **Topik Project**: T2 — POS UMKM Multi-Outlet  
 > **Slice Scope**: `k8` (Outlet A + B + C, 12 Bulan / Periode 2025)  
 
